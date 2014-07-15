@@ -1,0 +1,18 @@
+#!/usr/bin/python
+import sys
+
+def main():
+
+	def regex():
+
+		file = open('email.txt', rU)
+		for line in file:
+			match = re.search(r'([\w.-]+)@([\w.-]+)', line)
+			uname = match.group(1)
+			print uname
+
+
+	regex()		
+
+if __name__ == '__main__':
+	main()
